@@ -9,9 +9,9 @@
   <img src='https://img.shields.io/badge/sklearn-0.23.2-brightgreen'>
 </p>  
 
-<img src='https://github.com/jc-LeeHub/Recommend-System-TF2.0/blob/master/image/%E5%88%86%E5%89%B2%E7%BA%BF.jpg' width='100%'>
-
 此仓库用于记录在学习推荐系统过程中的知识产出，主要是对基本推荐算法的**原理解析**以及**代码实现**。(算法包含但不仅限于下图中的算法，**持续更新中...**)
+
+<img src='https://github.com/jc-LeeHub/Recommend-System-TF2.0/blob/master/image/%E5%88%86%E5%89%B2%E7%BA%BF.jpg' width='100%'>
 
 **原理解析可参考我知乎专栏**
 

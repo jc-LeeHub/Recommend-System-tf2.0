@@ -61,3 +61,14 @@
 ## Citation
 
 - 论文列表引用于浅梦 Weichen Shen. (2017). DeepCTR: Easy-to-use,Modular and Extendible package of deep-learning based CTR models. https://github.com/shenweichen/deepctr. 感谢整理！
+
+## About
+
+知乎：[予以初始](https://www.zhihu.com/people/yu-yi-chu-shi)
+
+CSDN: [予以初始](https://blog.csdn.net/weixin_45658131?spm=1000.2115.3001.5343)
+
+Website: [HomePage](https://link.zhihu.com/?target=https%3A//github.com/jc-LeeHub)
+
+wechat ID: Liii00061333
+

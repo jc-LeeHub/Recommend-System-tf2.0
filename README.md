@@ -68,7 +68,7 @@
 
 CSDN: [予以初始](https://blog.csdn.net/weixin_45658131?spm=1000.2115.3001.5343)
 
-Website: [HomePage](https://link.zhihu.com/?target=https%3A//github.com/jc-LeeHub)
+Website: [HomePage](https://jc-leehub.github.io/)
 
 wechat ID: Liii00061333
 

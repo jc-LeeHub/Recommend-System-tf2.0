@@ -21,15 +21,6 @@ if __name__ == '__main__':
     model = FFM(feature_columns, k=k)
     optimizer = optimizers.SGD(0.01)
 
-    # train_dataset = tf.data.Dataset.from_tensor_slices((X_train, y_train))
-    # train_dataset = train_dataset.batch(32).prefetch(tf.data.experimental.AUTOTUNE)
-    #
-    # model.compile(optimizer='sgd', loss='binary_crossentropy', metrics=['accuracy'])
-    # model.fit(train_dataset, epochs=100)
-    # logloss, auc = model.evaluate(X_test, y_test)
-    # print('logloss {}\nAUC {}'.format(round(logloss,2), round(auc,2)))
-    # model.summary()
-
     for i in range(100):
         with tf.GradientTape() as tape:
             y_pre = model(X_train)

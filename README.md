@@ -27,7 +27,7 @@
 
 - 每个模型文件夹中的代码都可独立运行，文件之间没有复杂的函数依赖，对新手友好
 
-**Tips: 该仓库使用的代码均为TF2.0，如果你不熟悉该框架，可参考文档简单粗暴 Tensorflow2.0**
+**Tips:** 该仓库使用的代码均为TF2.0，如果你不熟悉该框架，可参考文档[**简单粗暴Tensorflow2.0**](https://tf.wiki/zh_hans/basic/models.html)
 
 
 <div>

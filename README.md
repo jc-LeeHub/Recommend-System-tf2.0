@@ -72,3 +72,5 @@ Website: [HomePage](https://jc-leehub.github.io/)
 
 wechat ID: Liii00061333
 
+<img src='https://github.com/jc-LeeHub/Recommend-System-TF2.0/blob/master/image/IMG_4498(20210107-214348).JPG' width='20%'>
+

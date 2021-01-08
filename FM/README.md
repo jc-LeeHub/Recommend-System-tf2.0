@@ -1,0 +1,45 @@
+## FM （Factorization Machines）
+
+### 1 原理
+
+可参考我的知乎文章 [推荐算法(一)——FM因式分解机](https://zhuanlan.zhihu.com/p/342803984)
+
+### 2 代码结构
+
+-- **utils.py**
+
+---- **create_criteo_dataset:** Criteo数据预处理，返回划分好的训练集与验证集
+
+-- **model.py**
+
+---- **class FM_layer:** FM层的定义
+
+---- **class FM:**  FM模型的搭建
+
+-- **train.py**
+
+---- **main:** 将处理好的数据输入FM模型进行训练，并评估结果
+
+
+### 3 实验数据
+
+选择Criteo作为实验数据集。
+
+**样本字段:**
+
+I1~I13：数值特征
+
+C14~C39：类别特征
+
+**预处理：**
+1. 对数值特征I1~I13的缺失值进行填充, 然后进行归一化处理；
+2. 对类别特征C14~C39进行onehot编码, 转换成稀疏的数值特征；
+5. 切分数据集，返回(train_X, train_y), (test_X, test_y)。
+
+### 4 实验结果
+
+模型准确率： AUC: 0.772
+
+loss下降曲线：
+
+<div align=center><img src="https://github.com/jc-LeeHub/Recommend-System-TF2.0/blob/master/image/fm%E7%BB%93%E6%9E%9C.jpg" width="50%;" style="float:center"/></div>

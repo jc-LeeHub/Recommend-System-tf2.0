@@ -23,7 +23,7 @@
 
 ### 3 实验数据
 
-选择 Criteo 作为实验数据集。
+选择 [Criteo](https://github.com/jc-LeeHub/Recommend-System-TF2.0/blob/master/Data/train.txt) 作为实验数据集，这里只使用部分样本(2000个)进行训练。
 
 **样本字段:**
 

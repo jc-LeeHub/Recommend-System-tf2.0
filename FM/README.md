@@ -8,22 +8,22 @@
 
 -- **utils.py**
 
----- **create_criteo_dataset:** Criteo数据预处理，返回划分好的训练集与验证集
+---- **create_criteo_dataset:** Criteo 数据预处理，返回划分好的训练集与验证集
 
 -- **model.py**
 
----- **class FM_layer:** FM层的定义
+---- **class FM_layer:** FM 层的定义
 
----- **class FM:**  FM模型的搭建
+---- **class FM:**  FM 模型的搭建
 
 -- **train.py**
 
----- **main:** 将处理好的数据输入FM模型进行训练，并评估结果
+---- **main:** 将处理好的数据输入 FM 模型进行训练，并评估结果
 
 
 ### 3 实验数据
 
-选择Criteo作为实验数据集。
+选择 Criteo 作为实验数据集。
 
 **样本字段:**
 
@@ -32,9 +32,9 @@ I1~I13：数值特征
 C14~C39：类别特征
 
 **预处理：**
-1. 对数值特征I1~I13的缺失值进行填充, 然后进行归一化处理；
-2. 对类别特征C14~C39进行onehot编码, 转换成稀疏的数值特征；
-5. 切分数据集，返回(train_X, train_y), (test_X, test_y)。
+1. 对数值特征 I1~I13 的缺失值进行填充, 然后进行归一化处理；
+2. 对类别特征 C14~C39 进行 onehot 编码, 转换成稀疏的数值特征；
+5. 切分数据集，返回 (train_X, train_y), (test_X, test_y)。
 
 ### 4 实验结果
 

@@ -51,6 +51,6 @@ if __name__=='__main__':
     fnn_pre = model(X_test)
     fnn_pre = [1 if x>0.5 else 0 for x in fnn_pre]
 
-    print("FM AUC: ", accuracy_score(y_test, fm_pre))
-    print("FNN AUC: ", accuracy_score(y_test, fnn_pre))
+    print("FM Accuracy: ", accuracy_score(y_test, fm_pre))
+    print("FNN Accuracy: ", accuracy_score(y_test, fnn_pre))
 

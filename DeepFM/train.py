@@ -47,4 +47,4 @@ if __name__ == '__main__':
     #评估
     pre = model(X_test)
     pre = [1 if x>0.5 else 0 for x in pre]
-    print("AUC: ", accuracy_score(y_test, pre))
+    print("Accuracy: ", accuracy_score(y_test, pre))

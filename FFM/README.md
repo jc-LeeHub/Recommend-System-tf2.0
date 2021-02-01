@@ -45,4 +45,4 @@ C14~C39：类别特征
 
 loss下降曲线：
 
-<div align=center><img src="https://github.com/jc-LeeHub/Recommend-System-TF2.0/blob/master/image/fm%E7%BB%93%E6%9E%9C.jpg" width="50%;" style="float:center"/></div>
+<div align=center><img src="https://github.com/jc-LeeHub/Recommend-System-tf2.0/blob/master/image/FFM_loss.png" width="50%;" style="float:center"/></div>

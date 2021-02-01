@@ -4,7 +4,7 @@
 # File   : model.py
 '''
 
-from layer import Dense_layer, C
+from layer import FFM_Layer
 
 import tensorflow as tf
 from tensorflow.keras import Model

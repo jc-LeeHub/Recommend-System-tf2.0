@@ -19,7 +19,7 @@ parser.add_argument('-v_reg', type=float, help='v正则', default=1e-4)
 args=parser.parse_args()
 
 if __name__ == '__main__':
-    file_path = 'E:\\PycharmProjects\\推荐算法\\data\\train.txt'
+    file_path = 'train.txt'
     (X_train, y_train), (X_test, y_test) = create_criteo_dataset(file_path, test_size=0.5)
 
     k = args.k

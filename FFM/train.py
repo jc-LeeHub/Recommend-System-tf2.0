@@ -11,8 +11,8 @@ from tensorflow.keras import losses, optimizers
 from sklearn.metrics import accuracy_score
 
 if __name__ == '__main__':
-    file = 'E:\\PycharmProjects\\推荐算法\\data\\criteo_sample.txt'
-    test_size = 0.4
+    file = 'train.txt'
+    test_size = 0.2
     k = 8
 
     feature_columns, (X_train, y_train), (X_test, y_test) = create_criteo_dataset(file,

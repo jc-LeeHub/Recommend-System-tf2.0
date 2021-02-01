@@ -36,12 +36,12 @@ C14~C39：类别特征
 **预处理：**
 1. 对数值特征 I1~I13 的缺失值进行填充, 然后进行归一化处理；
 2. 对类别特征 C14~C39 进行 onehot 编码, 转换成稀疏的数值特征；
-3. 将数值特征与类别特征用字典保存为feature_columns；
+3. 将数值特征与类别特征用字典保存为 feature_columns；
 3. 切分数据集，返回 feature_columns, (train_X, train_y), (test_X, test_y)。
 
 ### 4 实验结果
 
-模型准确率： AUC: 0.772
+模型准确率： Accuracy: 0.772
 
 loss下降曲线：
 

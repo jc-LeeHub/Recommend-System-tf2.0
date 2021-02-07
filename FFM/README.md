@@ -6,22 +6,16 @@
 
 ### 2 代码结构
 
--- **utils.py**
-
----- **create_criteo_dataset:** Criteo 数据预处理，返回划分好的训练集与验证集,以及记录数值特征与类别特征的字典
-
--- **layer.py**
-
----- **class FFM_Layer:** FFM 层的定义
-
--- **model.py**
-
----- **class FFM:**  FFM 模型的搭建
-
--- **train.py**
-
----- **main:** 将处理好的数据输入 FFM 模型进行训练，并评估结果
-
+```shell
+├── utils.py   
+│   ├── create_criteo_dataset  # Criteo # Criteo 数据预处理，返回划分好的训练集与验证集,以及记录数值特征与类别特征的字典
+├── layer.py  
+│   ├── FFM_Layer  # FFM 层的定义
+├── model.py  
+│   ├── FFM        # FFM 模型的搭建
+├── train.py 
+│   ├── main       # 将处理好的数据输入 FM 模型进行训练，并评估结果
+```
 
 ### 3 实验数据
 

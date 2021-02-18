@@ -12,7 +12,7 @@
 <p align="left">
   <a href="https://www.zhihu.com/people/yu-yi-chu-shi"><img src="https://img.shields.io/badge/知乎-予以初始-blue" alt=""></a>
   <a href="https://blog.csdn.net/weixin_45658131?spm=1000.2115.3001.5343"><img src="https://img.shields.io/badge/CSDN-予以初始-red" alt=""></a>
-  <a href="https://github.com/youngyangyang04/leetcode-master"><img src="https://img.shields.io/badge/HomePage-予以初始-green" alt=""></a>
+  <a href="https://jc-leehub.github.io/"><img src="https://img.shields.io/badge/HomePage-予以初始-green" alt=""></a>
   <a href="https://github.com/jc-LeeHub/Recommend-System-TF2.0/blob/master/image/IMG_4498(20210107-214348).JPG"><img src="https://img.shields.io/badge/微信号-予以初始-brightgreen" alt=""></a>
 </p>
 

@@ -34,7 +34,7 @@ if __name__ == '__main__':
     summary_writer = tf.summary.create_file_writer('E:\\PycharmProjects\\tensorboard')
     for i in range(100):
         with tf.GradientTape() as tape:
-            y_pre = model((X_train[:, :13], X_train[:, 13:]))
+            y_pre = model(X_train)
             loss = tf.reduce_mean(losses.binary_crossentropy(y_true=y_train, y_pred=y_pre))
             print(loss.numpy())
         with summary_writer.as_default():
@@ -45,4 +45,4 @@ if __name__ == '__main__':
     #评估
     pre = model(X_test)
     pre = [1 if x>0.5 else 0 for x in pre]
-    print("AUC: ", accuracy_score(y_test, pre))
+    print("ACC: ", accuracy_score(y_test, pre))

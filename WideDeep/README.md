@@ -1,5 +1,7 @@
 ## Wide&Deep （Wide & Deep Learning for Recommender Systems）
 
+![widedeep模型结构](https://github.com/jc-LeeHub/Recommend-System-tf2.0/blob/master/image/widedeep%E6%A8%A1%E5%9E%8B.jpg)
+
 ### 1 原理
 
 可参考我的知乎文章 [推荐算法(三)——Wide&Deep 推荐算法与深度学习的碰撞](https://zhuanlan.zhihu.com/p/352917036)
@@ -36,8 +38,8 @@ C14~C39：类别特征
 
 ### 4 实验结果
 
-模型准确率： Accuracy: 0.6125
+模型准确率： Accuracy: 0.8025
 
 loss下降曲线：
 
-<div align=center><img src="https://github.com/jc-LeeHub/Recommend-System-tf2.0/blob/master/image/FFM_loss.png" width="50%;" style="float:center"/></div>
+<div align=center><img src="https://github.com/jc-LeeHub/Recommend-System-tf2.0/blob/master/image/widedeep_loss.png" width="50%;" style="float:center"/></div>

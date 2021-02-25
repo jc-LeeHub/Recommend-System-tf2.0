@@ -25,17 +25,16 @@ class WideDeep(Model):
         self.deep = Deep_layer(hidden_units, output_dim, activation)
 
     def call(self, inputs):
-        dense_inputs, sparse_inputs = inputs
+        dense_inputs, sparse_inputs = inputs[:, :13], inputs[:, 13:]
 
         # wide部分
-        wide_output = self.wide(dense_inputs)
+        wide_output = self.wide(inputs)
 
         # deep部分
         sparse_embed = tf.concat([self.embedding_layer['embed_layer'+str(i)](sparse_inputs[:, i])
                         for i in range(sparse_inputs.shape[-1])], axis=-1)
 
-        x = tf.concat([dense_inputs, sparse_embed], axis=-1)
-        deep_output = self.deep(x)
+        deep_output = self.deep(sparse_embed)
 
         output = tf.nn.sigmoid(0.5*(wide_output + deep_output))
         return output

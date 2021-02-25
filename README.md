@@ -20,7 +20,7 @@
 
 算法包含但不仅限于下图中的算法，**持续更新中...**
 
-<img src='https://github.com/jc-LeeHub/Recommend-System-TF2.0/blob/master/image/%E5%88%86%E5%89%B2%E7%BA%BF.jpg' width='100%'>
+<img src='https://cdn.jsdelivr.net/gh/jc-LeeHub/Recommend-System-tf2.0@master/image/%E5%88%86%E5%89%B2%E7%BA%BF.jpg' width='100%'>
 
 **原理解析可参考知乎专栏**
 
@@ -41,7 +41,7 @@
 **Tips:** 该仓库使用的代码均为TF2.0，如果你不熟悉该框架，可参考文档[**简单粗暴Tensorflow2.0**](https://tf.wiki/zh_hans/basic/models.html)
 
 <div>
-<img src='https://github.com/jc-LeeHub/Recommend-System-TF2.0/blob/master/image/%E6%8E%A8%E8%8D%90%E7%AE%97%E6%B3%95.png'>
+<img src='https://cdn.jsdelivr.net/gh/jc-LeeHub/Recommend-System-tf2.0@master/image/%E6%8E%A8%E8%8D%90%E7%AE%97%E6%B3%95.png'>
 </div>
 
 ## Models List
@@ -83,5 +83,5 @@ Website: [HomePage](https://jc-leehub.github.io/)
 
 wechat ID: Liii00061333
 
-<img src='https://github.com/jc-LeeHub/Recommend-System-TF2.0/blob/master/image/IMG_4498(20210107-214348).JPG' width='20%'>
+<img src='https://cdn.jsdelivr.net/gh/jc-LeeHub/Recommend-System-tf2.0@master/image/IMG_4498(20210107-214348).JPG' width='20%'>
 

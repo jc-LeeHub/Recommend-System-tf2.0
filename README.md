@@ -19,28 +19,6 @@
 
 <div align=center><img src='https://cdn.jsdelivr.net/gh/jc-LeeHub/Recommend-System-tf2.0@master/image/%E6%8E%A8%E8%8D%90%E7%AE%97%E6%B3%95.png' width='80%' style="float:center"/></div>
 
-
-<img src='https://cdn.jsdelivr.net/gh/jc-LeeHub/Recommend-System-tf2.0@master/image/%E5%88%86%E5%89%B2%E7%BA%BF.jpg' width='100%'>
-
-**原理解析可参考知乎专栏**
-
-- [推荐算法专栏](https://www.zhihu.com/column/c_1330637706267734016)
-
-- 原理学习可按照下图的发展顺序进行，也可直接参照专栏文章发表顺序
-
-- 文章会以通俗易懂的方式深入浅出每个算法的原理
-
-**代码实现可参考本仓库** 
-
-- 原理结合代码食用更佳，掌握算法的最好方式就是用代码撸它
-
-- 每个模型文件夹中的代码都可独立运行，文件之间没有复杂的函数依赖，对新手友好
-
-- 文件夹中都有README.md，对各个py文件中的类或者函数的功能进行介绍，总结代码大致结构
-
-**Tips:** 该仓库使用的代码均为TF2.0，如果你不熟悉该框架，可参考文档[**简单粗暴Tensorflow2.0**](https://tf.wiki/zh_hans/basic/models.html)
-
-
 ## Models List
 
 |  Model | Paper |                                                                                                                                        
@@ -69,9 +47,32 @@
 |  FLEN | [arxiv 2019] [FLEN: Leveraging Field for Scalable CTR Prediction](https://arxiv.org/pdf/1911.04690.pdf)                                                         |
 |  DCN V2  | [arxiv 2020] [DCN V2: Improved Deep & Cross Network and Practical Lessons for Web-scale Learning to Rank Systems](https://arxiv.org/abs/2008.13535)          |
 
+<img src='https://cdn.jsdelivr.net/gh/jc-LeeHub/Recommend-System-tf2.0@master/image/%E5%88%86%E5%89%B2%E7%BA%BF.jpg' width='100%'>
+
+
+
+**原理解析可参考知乎专栏**
+
+- [推荐算法专栏](https://www.zhihu.com/column/c_1330637706267734016)
+
+- 原理学习可按照下图的发展顺序进行，也可直接参照专栏文章发表顺序
+
+- 文章会以通俗易懂的方式深入浅出每个算法的原理
+
+**代码实现可参考本仓库** 
+
+- 原理结合代码食用更佳，掌握算法的最好方式就是用代码撸它
+
+- 每个模型文件夹中的代码都可独立运行，文件之间没有复杂的函数依赖，对新手友好
+
+- 文件夹中都有README.md，对各个py文件中的类或者函数的功能进行介绍，总结代码大致结构
+
+**Tips:** 该仓库使用的代码均为TF2.0，如果你不熟悉该框架，可参考文档[**简单粗暴Tensorflow2.0**](https://tf.wiki/zh_hans/basic/models.html)
+
+
 ## Citation
 
-- 论文列表引用于浅梦 Weichen Shen. (2017). DeepCTR: Easy-to-use,Modular and Extendible package of deep-learning based CTR models. https://github.com/shenweichen/deepctr. 感谢整理！
+- 论文列表引用于浅梦，并作了相应补充. Weichen Shen.(2017). DeepCTR: Easy-to-use,Modular and Extendible package of deep-learning based CTR models. https://github.com/shenweichen/deepctr. 感谢整理！
 
 ## About
 

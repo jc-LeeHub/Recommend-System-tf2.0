@@ -45,26 +45,28 @@
 
 |  Model | Paper |                                                                                                                                        
 | :----: | :------- | 
-|  [CCPM](http://ir.ia.ac.cn/bitstream/173211/12337/1/A%20Convolutional%20Click%20Prediction%20Model.pdf)  | [CIKM 2015][A Convolutional Click Prediction Model](http://ir.ia.ac.cn/bitstream/173211/12337/1/A%20Convolutional%20Click%20Prediction%20Model.pdf)           |
-|  [FNN](https://github.com/jc-LeeHub/Recommend-System-tf2.0/tree/master/FNN)   | [ECIR 2016][Deep Learning over Multi-field Categorical Data: A Case Study on User Response Prediction](https://arxiv.org/pdf/1601.02376.pdf)                  |
-|  [PNN](https://github.com/jc-LeeHub/Recommend-System-tf2.0/tree/master/PNN)   | [ICDM 2016][Product-based neural networks for user response prediction](https://arxiv.org/pdf/1611.00144.pdf)                                                 |
-|  [Wide & Deep](https://github.com/jc-LeeHub/Recommend-System-tf2.0/tree/master/WideDeep) | [DLRS 2016][Wide & Deep Learning for Recommender Systems](https://arxiv.org/pdf/1606.07792.pdf)                                                         |             
-|  [DeepFM](https://github.com/jc-LeeHub/Recommend-System-tf2.0/tree/master/DeepFM)   | [IJCAI 2017][DeepFM: A Factorization-Machine based Neural Network for CTR Prediction](http://www.ijcai.org/proceedings/2017/0239.pdf)                      |
-|  Piece-wise Linear Model | [arxiv 2017][Learning Piece-wise Linear Models from Large Scale Data for Ad Click Prediction](https://arxiv.org/abs/1704.05194)             |                           
-|  [Deep & Cross Network](https://github.com/jc-LeeHub/Recommend-System-tf2.0/tree/master/DCN)    | [ADKDD 2017][Deep & Cross Network for Ad Click Predictions](https://arxiv.org/abs/1708.05123)                                               |                           
-|  [AFM](https://github.com/jc-LeeHub/Recommend-System-tf2.0/tree/master/AFM) | [IJCAI 2017][Attentional Factorization Machines: Learning the Weight of Feature Interactions via Attention Networks](http://www.ijcai.org/proceedings/2017/435) |
-|  [NFM](https://github.com/jc-LeeHub/Recommend-System-tf2.0/tree/master/NFM) | [SIGIR 2017][Neural Factorization Machines for Sparse Predictive Analytics](https://arxiv.org/pdf/1708.05027.pdf)                                               |
-|  [xDeepFM](https://github.com/jc-LeeHub/Recommend-System-tf2.0/tree/master/xDeepFM) | [KDD 2018][xDeepFM: Combining Explicit and Implicit Feature Interactions for Recommender Systems](https://arxiv.org/pdf/1803.05170.pdf)                     |
-|  [DIN](https://github.com/jc-LeeHub/Recommend-System-tf2.0/tree/master/DIN) | [KDD 2018][Deep Interest Network for Click-Through Rate Prediction](https://arxiv.org/pdf/1706.06978.pdf)                                                       |
-|  [AutoInt](https://github.com/jc-LeeHub/Recommend-System-tf2.0/tree/master/AutoInt) | [CIKM 2019][AutoInt: Automatic Feature Interaction Learning via Self-Attentive Neural Networks](https://arxiv.org/abs/1810.11921)                           |                        
-|  DIEN | [AAAI 2019][Deep Interest Evolution Network for Click-Through Rate Prediction](https://arxiv.org/pdf/1809.03672.pdf)                                           |
-|  FwFM | [WWW 2018][Field-weighted Factorization Machines for Click-Through Rate Prediction in Display Advertising](https://arxiv.org/pdf/1806.03514.pdf)               |
-|  ONN  | [arxiv 2019][Operation-aware Neural Networks for User Response Prediction](https://arxiv.org/pdf/1904.12579.pdf)                                               |
-|  [FGCNN](https://github.com/jc-LeeHub/Recommend-System-tf2.0/tree/master/FGCNN) | [WWW 2019][Feature Generation by Convolutional Neural Network for Click-Through Rate Prediction ](https://arxiv.org/pdf/1904.04447)                           |
-|  DSIN  | [IJCAI 2019][Deep Session Interest Network for Click-Through Rate Prediction ](https://arxiv.org/abs/1905.06482)                                              |
-|  FiBiNET| [RecSys 2019][FiBiNET: Combining Feature Importance and Bilinear feature Interaction for Click-Through Rate Prediction](https://arxiv.org/pdf/1905.09433.pdf)|
-|  FLEN | [arxiv 2019][FLEN: Leveraging Field for Scalable CTR Prediction](https://arxiv.org/pdf/1911.04690.pdf)                                                         |
-|  DCN V2  | [arxiv 2020][DCN V2: Improved Deep & Cross Network and Practical Lessons for Web-scale Learning to Rank Systems](https://arxiv.org/abs/2008.13535)          |
+|  [FM](https://github.com/jc-LeeHub/Recommend-System-tf2.0/tree/master/FM) | [ICDM 2010] [Fast Context-aware Recommendationswith Factorization Machines](https://www.ismll.uni-hildesheim.de/pub/pdfs/Rendle_et_al2011-Context_Aware.pdf)           |
+|  [FFM](https://github.com/jc-LeeHub/Recommend-System-tf2.0/tree/master/FFM) | [RecSys 2016] [Field-aware Factorization Machines for CTR Prediction](https://www.csie.ntu.edu.tw/~cjlin/papers/ffm.pdf)           |
+|  [CCPM](https://github.com/jc-LeeHub/Recommend-System-tf2.0/tree/master/CCPM)  | [CIKM 2015] [A Convolutional Click Prediction Model](http://ir.ia.ac.cn/bitstream/173211/12337/1/A%20Convolutional%20Click%20Prediction%20Model.pdf)           |
+|  [FNN](https://github.com/jc-LeeHub/Recommend-System-tf2.0/tree/master/FNN)   | [ECIR 2016] [Deep Learning over Multi-field Categorical Data: A Case Study on User Response Prediction](https://arxiv.org/pdf/1601.02376.pdf)                  |
+|  [PNN](https://github.com/jc-LeeHub/Recommend-System-tf2.0/tree/master/PNN)   | [ICDM 2016] [Product-based neural networks for user response prediction](https://arxiv.org/pdf/1611.00144.pdf)                                                 |
+|  [Wide & Deep](https://github.com/jc-LeeHub/Recommend-System-tf2.0/tree/master/WideDeep) | [DLRS 2016] [Wide & Deep Learning for Recommender Systems](https://arxiv.org/pdf/1606.07792.pdf)                                                         |             
+|  [DeepFM](https://github.com/jc-LeeHub/Recommend-System-tf2.0/tree/master/DeepFM)   | [IJCAI 2017] [DeepFM: A Factorization-Machine based Neural Network for CTR Prediction](http://www.ijcai.org/proceedings/2017/0239.pdf)                      |
+|  [Deep & Cross Network](https://github.com/jc-LeeHub/Recommend-System-tf2.0/tree/master/DCN)    | [ADKDD 2017] [Deep & Cross Network for Ad Click Predictions](https://arxiv.org/abs/1708.05123)                                               |                           
+|  [AFM](https://github.com/jc-LeeHub/Recommend-System-tf2.0/tree/master/AFM) | [IJCAI 2017] [Attentional Factorization Machines: Learning the Weight of Feature Interactions via Attention Networks](http://www.ijcai.org/proceedings/2017/435) |
+|  [NFM](https://github.com/jc-LeeHub/Recommend-System-tf2.0/tree/master/NFM) | [SIGIR 2017] [Neural Factorization Machines for Sparse Predictive Analytics](https://arxiv.org/pdf/1708.05027.pdf)                                               |
+|  [xDeepFM](https://github.com/jc-LeeHub/Recommend-System-tf2.0/tree/master/xDeepFM) | [KDD 2018] [xDeepFM: Combining Explicit and Implicit Feature Interactions for Recommender Systems](https://arxiv.org/pdf/1803.05170.pdf)                     |
+|  [DIN](https://github.com/jc-LeeHub/Recommend-System-tf2.0/tree/master/DIN) | [KDD 2018] [Deep Interest Network for Click-Through Rate Prediction](https://arxiv.org/pdf/1706.06978.pdf)                                                       |
+|  [AutoInt](https://github.com/jc-LeeHub/Recommend-System-tf2.0/tree/master/AutoInt) | [CIKM 2019] [AutoInt: Automatic Feature Interaction Learning via Self-Attentive Neural Networks](https://arxiv.org/abs/1810.11921)                           |                        
+|  DIEN | [AAAI 2019] [Deep Interest Evolution Network for Click-Through Rate Prediction](https://arxiv.org/pdf/1809.03672.pdf)                                           |
+|  FwFM | [WWW 2018] [Field-weighted Factorization Machines for Click-Through Rate Prediction in Display Advertising](https://arxiv.org/pdf/1806.03514.pdf)               |
+|  ONN  | [arxiv 2019] [Operation-aware Neural Networks for User Response Prediction](https://arxiv.org/pdf/1904.12579.pdf)                                               |
+|  [FGCNN](https://github.com/jc-LeeHub/Recommend-System-tf2.0/tree/master/FGCNN) | [WWW 2019] [Feature Generation by Convolutional Neural Network for Click-Through Rate Prediction ](https://arxiv.org/pdf/1904.04447)                           |
+|  DSIN  | [IJCAI 2019] [Deep Session Interest Network for Click-Through Rate Prediction ](https://arxiv.org/abs/1905.06482)    |
+|  Piece-wise Linear Model | [arxiv 2017] [Learning Piece-wise Linear Models from Large Scale Data for Ad Click Prediction](https://arxiv.org/abs/1704.05194)             |                           
+|  FiBiNET| [RecSys 2019] [FiBiNET: Combining Feature Importance and Bilinear feature Interaction for Click-Through Rate Prediction](https://arxiv.org/pdf/1905.09433.pdf)|
+|  FLEN | [arxiv 2019] [FLEN: Leveraging Field for Scalable CTR Prediction](https://arxiv.org/pdf/1911.04690.pdf)                                                         |
+|  DCN V2  | [arxiv 2020] [DCN V2: Improved Deep & Cross Network and Practical Lessons for Web-scale Learning to Rank Systems](https://arxiv.org/abs/2008.13535)          |
 
 ## Citation
 

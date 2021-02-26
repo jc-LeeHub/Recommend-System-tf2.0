@@ -51,7 +51,7 @@
 
 ## Introduction
 
-**原理结合代码食用更佳，掌握算法的最好方式就是用代码撸它**
+- 原理结合代码食用更佳，掌握算法的最好方式就是用代码撸它
 
 - 原理解析可参考知乎专栏 [推荐算法也可以很简单](https://www.zhihu.com/column/c_1330637706267734016)
 
@@ -65,13 +65,13 @@
 
 ## About
 
-知乎：[予以初始](https://www.zhihu.com/people/yu-yi-chu-shi)
+- 知乎：[予以初始](https://www.zhihu.com/people/yu-yi-chu-shi)
 
-CSDN: [予以初始](https://blog.csdn.net/weixin_45658131?spm=1000.2115.3001.5343)
+- CSDN: [予以初始](https://blog.csdn.net/weixin_45658131?spm=1000.2115.3001.5343)
 
-Website: [HomePage](https://jc-leehub.github.io/)
+- Website: [HomePage](https://jc-leehub.github.io/)
 
-wechat ID: Liii00061333
+- wechat ID: Liii00061333
 
 <img src='https://cdn.jsdelivr.net/gh/jc-LeeHub/Recommend-System-tf2.0@master/image/IMG_4498(20210107-214348).JPG' width='20%'>
 

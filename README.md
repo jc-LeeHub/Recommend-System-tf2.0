@@ -77,4 +77,3 @@
 - wechat ID: Liii00061333
 
 <img src='https://cdn.jsdelivr.net/gh/jc-LeeHub/Recommend-System-tf2.0@master/image/IMG_4498(20210107-214348).JPG' width='20%'>
-

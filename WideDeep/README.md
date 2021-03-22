@@ -2,6 +2,7 @@
 
 ![widedeep模型结构](https://cdn.jsdelivr.net/gh/jc-LeeHub/Recommend-System-tf2.0@master/image/widedeep%E6%A8%A1%E5%9E%8B.jpg)
 
+
 ### 1 原理
 
 可参考我的知乎文章 [推荐算法(三)——Wide&Deep 推荐算法与深度学习的碰撞](https://zhuanlan.zhihu.com/p/352917036)

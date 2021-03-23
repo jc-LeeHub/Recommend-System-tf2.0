@@ -19,7 +19,6 @@
 
 <div align=center><img src='https://cdn.jsdelivr.net/gh/jc-LeeHub/Recommend-System-tf2.0@master/image/%E6%8E%A8%E8%8D%90%E7%AE%97%E6%B3%95.png' width='80%' style="float:center"/></div>
 
-
 ## Models List
 
 |  Model | Paper |                                                                                                                                        

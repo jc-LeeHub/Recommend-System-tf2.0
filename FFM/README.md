@@ -33,7 +33,6 @@ C14~C39：类别特征
 3. 将数值特征与类别特征用字典保存为 feature_columns；
 3. 切分数据集，返回 feature_columns, (train_X, train_y), (test_X, test_y)。
 
-
 ### 4 实验结果
 
 模型准确率： Accuracy: 0.6125 （数据虽少，但模型训练巨慢）

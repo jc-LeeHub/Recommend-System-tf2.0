@@ -49,7 +49,6 @@
 
 <img src='https://cdn.jsdelivr.net/gh/jc-LeeHub/Recommend-System-tf2.0@master/image/%E5%88%86%E5%89%B2%E7%BA%BF.jpg' width='100%'>
 
-
 ## Introduction
 
 - 原理结合代码食用更佳，掌握算法的最好方式就是用代码撸它

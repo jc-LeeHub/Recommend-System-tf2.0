@@ -42,4 +42,6 @@ C14~C39：类别特征
 
 loss下降曲线：
 
+(跑了500个epoch依然未收敛，可继续加大epoch或者加大学习率)
+
 <div align=center><img src="https://cdn.jsdelivr.net/gh/jc-LeeHub/Recommend-System-tf2.0@master/image/deepfm_loss.png" width="50%;" style="float:center"/></div>

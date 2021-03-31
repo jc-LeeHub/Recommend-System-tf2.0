@@ -31,9 +31,6 @@ class Deep_layer(Layer):
         self.hidden_layer = [Dense(i, activation=activation) for i in hidden_units]
         self.output_layer = Dense(output_dim, activation=None)
 
-    def build(self, input_shape):
-        pass
-
     def call(self, inputs, **kwargs):
         x = inputs
         for layer in self.hidden_layer:

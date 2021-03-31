@@ -45,13 +45,9 @@ class Dense_layer(Layer):
         self.output_dim = output_dim
         self.activation = activation
 
-        #全连接无需定义第一层维度
         self.hidden_layer = [Dense(i, activation=self.activation)
                              for i in self.hidden_units]
         self.output_layer = Dense(self.output_dim, activation=None)
-
-    def build(self, input_shape):
-        pass
 
     def call(self, inputs):
         x = inputs
@@ -59,4 +55,3 @@ class Dense_layer(Layer):
             x = layer(x)
         output = self.output_layer(x)
         return output
-

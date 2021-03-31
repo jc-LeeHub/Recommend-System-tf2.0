@@ -14,10 +14,6 @@ class WideDeep(Model):
     def __init__(self, feature_columns, hidden_units, output_dim, activation):
         super().__init__()
         self.dense_feature_columns, self.sparse_feature_columns = feature_columns
-        self.hidden_units = hidden_units
-        self.output_dim = output_dim
-        self.activation = activation
-
         self.embedding_layer = {'embed_layer'+str(i): Embedding(feat['feat_onehot_dim'], feat['embed_dim'])
                                 for i,feat in enumerate(self.sparse_feature_columns)}
 

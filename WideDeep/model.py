@@ -23,6 +23,9 @@ class WideDeep(Model):
         self.deep = Deep_layer(hidden_units, output_dim, activation)
 
     def call(self, inputs):
+        # dense_inputs: 数值特征，13维
+        # sparse_inputs： 类别特征，26维
+        # onehot_inputs：onehot处理的类别特征(wide侧的输入)
         dense_inputs, sparse_inputs, onehot_inputs = inputs[:, :13], inputs[:, 13:39], inputs[:, 39:]
 
         # wide部分

@@ -6,10 +6,11 @@
 
 from layer import Wide_layer, Deep_layer
 
-import pandas as pd
 import tensorflow as tf
 from tensorflow.keras import Model
 from tensorflow.keras.layers import Embedding
+
+import pandas as pd
 
 class WideDeep(Model):
     def __init__(self, feature_columns, hidden_units, output_dim, activation):
@@ -22,20 +23,16 @@ class WideDeep(Model):
         self.deep = Deep_layer(hidden_units, output_dim, activation)
 
     def call(self, inputs):
-        dense_inputs, sparse_inputs = inputs[:, :13], inputs[:, 13:]
+        dense_inputs, sparse_inputs, onehot_inputs = inputs[:, :13], inputs[:, 13:39], inputs[:, 39:]
 
         # wide部分
-        onehot_embed = tf.cast(tf.concat([pd.get_dummies(sparse_inputs[:, i]) for i in range(sparse_inputs.shape[-1])], axis=-1),
-                               dtype=tf.float32)
-        wide_input = tf.concat([tf.expand_dims(dense_inputs, -1), onehot_embed], axis=-1)
+        wide_input = tf.concat([dense_inputs, onehot_inputs], axis=-1)
         wide_output = self.wide(wide_input)
 
         # deep部分
-        sparse_embed = tf.concat([self.embedding_layer['embed_layer'+str(i)](sparse_inputs[:, i])
+        sparse_embed = tf.concat([self.embedding_layer['embed_layer'+str(i)](sparse_inputs[:, i]) \
                         for i in range(sparse_inputs.shape[-1])], axis=-1)
-
         deep_output = self.deep(sparse_embed)
 
         output = tf.nn.sigmoid(0.5*(wide_output + deep_output))
         return output
-

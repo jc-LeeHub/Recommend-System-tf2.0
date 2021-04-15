@@ -6,6 +6,7 @@
 
 from layer import Wide_layer, Deep_layer
 
+import pandas as pd
 import tensorflow as tf
 from tensorflow.keras import Model
 from tensorflow.keras.layers import Embedding
@@ -24,7 +25,10 @@ class WideDeep(Model):
         dense_inputs, sparse_inputs = inputs[:, :13], inputs[:, 13:]
 
         # wide部分
-        wide_output = self.wide(inputs)
+        onehot_embed = tf.cast(tf.concat([pd.get_dummies(sparse_inputs[:, i]) for i in range(sparse_inputs.shape[-1])], axis=-1),
+                               dtype=tf.float32)
+        wide_input = tf.concat([tf.expand_dims(dense_inputs, -1), onehot_embed], axis=-1)
+        wide_output = self.wide(wide_input)
 
         # deep部分
         sparse_embed = tf.concat([self.embedding_layer['embed_layer'+str(i)](sparse_inputs[:, i])

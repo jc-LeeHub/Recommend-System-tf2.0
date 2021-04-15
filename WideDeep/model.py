@@ -10,8 +10,6 @@ import tensorflow as tf
 from tensorflow.keras import Model
 from tensorflow.keras.layers import Embedding
 
-import pandas as pd
-
 class WideDeep(Model):
     def __init__(self, feature_columns, hidden_units, output_dim, activation):
         super().__init__()

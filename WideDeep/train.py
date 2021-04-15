@@ -42,7 +42,7 @@ if __name__ == '__main__':
         grad = tape.gradient(loss, model.variables)
         optimizer.apply_gradients(grads_and_vars=zip(grad, model.variables))
 
-    #评估
-    pre = model(X_test)
-    pre = [1 if x>0.5 else 0 for x in pre]
-    print("ACC: ", accuracy_score(y_test, pre))
+#     #评估
+#     pre = model(X_test)
+#     pre = [1 if x>0.5 else 0 for x in pre]
+#     print("ACC: ", accuracy_score(y_test, pre))

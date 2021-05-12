@@ -67,7 +67,7 @@ class CIN(Layer):
 
         res_list = res_list[1:]   # 去掉X0
         res = tf.concat(res_list, axis=1)  # (None, field_num[1]+...+field_num[n], k)
-        output = tf.reduce_sum(res, axis=1)  # (None, dim)
+        output = tf.reduce_sum(res, axis=-1)  # (None, field_num[1]+...+field_num[n])
         return output
 
 

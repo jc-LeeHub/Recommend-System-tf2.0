@@ -19,7 +19,7 @@
 ├── model.py  
 │   ├── xDeepFM      # xDeepFM 模型搭建
 ├── train.py 
-│   ├── main         # 将处理好的数据输入 Wide&Deep 模型进行训练，并评估结果
+│   ├── main         # 将处理好的数据输入 xDeepFM 模型进行训练，并评估结果
 ```
 
 ### 3 实验数据

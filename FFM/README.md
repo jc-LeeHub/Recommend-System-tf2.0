@@ -8,7 +8,7 @@
 
 ```shell
 ├── utils.py   
-│   ├── create_criteo_dataset  # Criteo # Criteo 数据预处理，返回划分好的训练集与验证集,以及记录数值特征与类别特征的字典
+│   ├── create_criteo_dataset  # Criteo 数据预处理，返回划分好的训练集与验证集,以及记录数值特征与类别特征的字典
 ├── layer.py  
 │   ├── FFM_Layer  # FFM 层的定义
 ├── model.py  

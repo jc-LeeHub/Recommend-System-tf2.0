@@ -1,6 +1,6 @@
 ## FNN （Deep Learning over Multi-field Categorical Data– A Case Study on User Response Prediction）
 
-![FNN模型结构](https://cdn.jsdelivr.net/gh/jc-LeeHub/Recommend-System-tf2.0@master/image/FNN.png)
+![FNN模型结构](https://cdn.jsdelivr.net/gh/jc-LeeHub/Recommend-System-tf2.0@master/image/FNN_model.png)
 
 ### 1 原理
 

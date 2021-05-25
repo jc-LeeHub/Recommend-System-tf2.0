@@ -4,7 +4,7 @@
 
 ### 1 原理
 
-可参考我的知乎文章 [推荐算法(三)——Wide&Deep 推荐算法与深度学习的碰撞](https://zhuanlan.zhihu.com/p/352917036)
+可参考我的知乎文章 [推荐算法(七)——FM 与 DNN 的另一种结合产物 FNN](https://zhuanlan.zhihu.com/p/352917036)
 
 ### 2 代码结构
 
@@ -12,12 +12,13 @@
 ├── utils.py   
 │   ├── create_criteo_dataset  # Criteo # Criteo 数据预处理，返回划分好的训练集与验证集,以及记录数值特征与类别特征的字典
 ├── layer.py  
-│   ├── Wide_layer  # Wide 部分的定义
-│   ├── Deep_layer  # Deep 部分的定义
+│   ├── FM_layer   # FM 部分的定义
+│   ├── DNN_layer  # Deep 部分的定义
 ├── model.py  
-│   ├── WideDeep    # Wide&Deep 模型搭建
+│   ├── FM         # FM 模型搭建
+│   ├── DNN        # DNN 模型搭建
 ├── train.py 
-│   ├── main        # 将处理好的数据输入 Wide&Deep 模型进行训练，并评估结果
+│   ├── main       # 将处理好的数据输入 FNN 模型进行训练，并评估结果
 ```
 
 ### 3 实验数据

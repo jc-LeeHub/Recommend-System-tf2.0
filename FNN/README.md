@@ -4,7 +4,7 @@
 
 ### 1 原理
 
-可参考我的知乎文章 [推荐算法(七)——FM 与 DNN 的另一种结合产物 FNN](https://zhuanlan.zhihu.com/p/352917036)
+可参考我的知乎文章 [推荐算法(七)——FM 与 DNN 的另一种结合产物 FNN](https://zhuanlan.zhihu.com/p/375261399)
 
 ### 2 代码结构
 

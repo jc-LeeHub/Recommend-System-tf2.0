@@ -1,6 +1,5 @@
 # Recommend-System-TF2.0
 
-
 <p align="left">
   <img src='https://img.shields.io/badge/python-3.6-blue'>
   <img src='https://img.shields.io/badge/tensorflow-2.0-brightgreen'>

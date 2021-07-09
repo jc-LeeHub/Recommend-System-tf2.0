@@ -11,7 +11,7 @@
 │   ├── create_criteo_dataset  # Criteo 数据预处理，返回划分好的训练集与验证集
 ├── model.py  
 │   ├── FM_layer # FM 层的定义
-│   ├── FM_layer # FM 模型的搭建
+│   ├── FM       # FM 模型的搭建
 ├── train.py 
 │   ├── main     # 将处理好的数据输入 FM 模型进行训练，并评估结果
 ```

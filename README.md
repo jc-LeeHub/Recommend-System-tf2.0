@@ -13,7 +13,6 @@
   <a href="https://github.com/jc-LeeHub/Recommend-System-TF2.0/blob/master/image/IMG_4498(20210107-214348).JPG"><img src="https://img.shields.io/badge/微信号-予以初始-brightgreen" alt=""></a>
 </p>
 
-
 此仓库用于记录在学习推荐系统过程中的知识产出，主要是对经典推荐算法的**原理解析**及**代码实现**。
 
 算法包含但不仅限于下图中的算法，**持续更新中...**

@@ -1,6 +1,6 @@
 ## Deep Crossing （Web-Scale Modeling withoutManually Crafted Combinatorial Features）
 
-![DeepCrossing 模型结构](https://cdn.jsdelivr.net/gh/jc-LeeHub/Recommend-System-tf2.0@master/image/widedeep%E6%A8%A1%E5%9E%8B.jpg)
+![DeepCrossing 模型结构](https://cdn.jsdelivr.net/gh/jc-LeeHub/Recommend-System-tf2.0@master/image/DeepCrossing.png)
 
 ### 1 原理
 

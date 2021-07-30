@@ -1,6 +1,6 @@
 ## CCPM （A Convolutional Click Prediction Model）
 
-![CCPM模型结构](https://cdn.jsdelivr.net/gh/jc-LeeHub/Recommend-System-tf2.0@master/image/widedeep%E6%A8%A1%E5%9E%8B.jpg)
+![CCPM模型结构](https://cdn.jsdelivr.net/gh/jc-LeeHub/Recommend-System-tf2.0@master/image/CCPM.png)
 
 ### 1 原理
 

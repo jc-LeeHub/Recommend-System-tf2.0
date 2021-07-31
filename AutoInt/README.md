@@ -43,4 +43,4 @@ C14~C39：类别特征
 
 loss下降曲线：
 
-<div align=center><img src="https://cdn.jsdelivr.net/gh/jc-LeeHub/Recommend-System-tf2.0@master/image/widedeep_loss.png" width="50%;" style="float:center"/></div>
+<div align=center><img src="https://cdn.jsdelivr.net/gh/jc-LeeHub/Recommend-System-tf2.0@master/image/AutoInt.png" width="50%;" style="float:center"/></div>

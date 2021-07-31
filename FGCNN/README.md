@@ -38,8 +38,8 @@ C14~C39：类别特征
 
 ### 4 实验结果
 
-模型准确率： Accuracy: 0.8025
+模型准确率： Accuracy: 0.835
 
 loss下降曲线：
 
-<div align=center><img src="https://cdn.jsdelivr.net/gh/jc-LeeHub/Recommend-System-tf2.0@master/image/widedeep_loss.png" width="50%;" style="float:center"/></div>
+<div align=center><img src="https://cdn.jsdelivr.net/gh/jc-LeeHub/Recommend-System-tf2.0@master/image/FGCNN_loss.png" width="50%;" style="float:center"/></div>

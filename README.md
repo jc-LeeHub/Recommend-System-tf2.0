@@ -6,7 +6,6 @@
   <img src='https://img.shields.io/badge/keras-2.4.3-brightgreen'>
 </p>  
 
-
 <p align="left">
   <a href="https://www.zhihu.com/people/yu-yi-chu-shi"><img src="https://img.shields.io/badge/知乎-予以初始-blue" alt=""></a>
   <a href="https://blog.csdn.net/weixin_45658131?spm=1000.2115.3001.5343"><img src="https://img.shields.io/badge/CSDN-予以初始-red" alt=""></a>

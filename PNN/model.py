@@ -32,6 +32,7 @@ class PNN(Model):
         embed = [self.embed_layers['embed_{}'.format(i)](sparse_inputs[:, i])
                           for i in range(sparse_inputs.shape[1])]
         embed = tf.transpose(tf.convert_to_tensor(embed), [1, 0, 2])  #[None, field, k]
+        embed = tf.concat([embed, dense_inputs], axis=1)
 
         # product之前加入fgcnn层
         if self.use_fgcnn:

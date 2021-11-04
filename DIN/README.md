@@ -1,6 +1,6 @@
-## Din （Deep Interest Network for Click-Through Rate Prediction）
+## DIN （Deep Interest Network for Click-Through Rate Prediction）
 
-![Din模型结构](https://github.com/jc-LeeHub/Recommend-System-tf2.0/blob/master/image/DIN_model.png)
+![DIN模型结构](https://github.com/jc-LeeHub/Recommend-System-tf2.0/blob/master/image/DIN_model.png)
 
 ### 1 原理
 
